@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dynamic Form</title>
+  </head>
+  <body>
+    <!-- Display and read json from input field -->
+    <h2 class="text-center">Dynamic form Generator</h2>
+    <div id="app">
+      <div class="json-snippet">
+        <textarea id="json-sample" cols="30" rows="10"></textarea>
+        <p class="text-danger">** Only switch out the Keys. If JSON structure is changed, form cannot be built</p>
+        <br />
+        <button type="button" id="reload-form-preview">View</button>
+      </div>
+      
+      <div class="form-area">
+        <form id="test-form"></form>
+      </div>
+    </div>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

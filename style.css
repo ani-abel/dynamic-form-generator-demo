@@ -1,0 +1,45 @@
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.json-snippet,
+.form-area {
+  width: 50%;
+}
+
+#json-sample {
+  width: 80%;
+  resize: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+form .form-control {
+  padding: 10px;
+  text-align: center;
+}
+
+form label {
+  font-size: 18px;
+  color: teal;
+}
+
+form input {
+  height: 30px;
+  width: 500px;
+}
+
+.text-danger {
+  color: indianred;
+}
